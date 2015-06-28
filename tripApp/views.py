@@ -9,7 +9,7 @@ def index(request):
     #return HttpResponse(template.render(context))
     for s in spot_list:
         print s.id, type(s.id)
-    return render(request, 'trip/index.html', {'spot_list': spot_list})
+    return render(request, 'trip/main.html', {'spot_list': spot_list})
 
 def detail(request, spot_id):
     spot = get_object_or_404(Resort, id=spot_id)
