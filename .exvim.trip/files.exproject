@@ -1,0 +1,64 @@
+" Press <F1> for help
+
+-[F]trip {
+ |-[F]static {
+ | |-[F]bootstrap {
+ |   |-[F]css {
+ |   | |-bootstrap-theme.css
+ |   | |-bootstrap-theme.css.map
+ |   | |-bootstrap-theme.min.css
+ |   | |-bootstrap.css
+ |   | |-bootstrap.css.map
+ |   | |-bootstrap.min.css }
+ |   |
+ |   |-[F]fonts {
+ |   | |-glyphicons-halflings-regular.eot
+ |   | |-glyphicons-halflings-regular.svg
+ |   | |-glyphicons-halflings-regular.ttf
+ |   | |-glyphicons-halflings-regular.woff
+ |   | |-glyphicons-halflings-regular.woff2 }
+ |   |
+ |   |-[F]js {
+ |     |-bootstrap.js
+ |     |-bootstrap.min.js
+ |     |-npm.js } } }
+ |
+ |-[F]templates {
+ | |-[F]trip {
+ |   |-detail.html
+ |   |-footer.html
+ |   |-header.html
+ |   |-index.html
+ |   |-index1.html
+ |   |-nav_left.html
+ |   |-nav_top.html } }
+ |
+ |-[F]tripApp {
+ | |-[F]migrations {
+ | | |-0001_initial.py
+ | | |-0002_resort.py
+ | | |-0003_auto_20150621_1553.py
+ | | |-0004_resort_position.py
+ | | |-0005_auto_20150621_1649.py
+ | | |-__init__.py }
+ | |
+ | |-__init__.py
+ | |-admin.py
+ | |-models.py
+ | |-tests.py
+ | |-urls.py
+ | |-utils.py
+ | |-views.py }
+ |
+ |-[F]tripsite {
+ | |-__init__.py
+ | |-settings.py
+ | |-urls.py
+ | |-wsgi.py }
+ |
+ |-db.sqlite3
+ |-manage.py
+ |-README.md
+ |-trip.exvim }
+
+

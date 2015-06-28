@@ -34,5 +34,9 @@ class Resort(models.Model):
     city = models.CharField(max_length=100, default='null')
     country = models.CharField(max_length=100, default='null')
     position = GeopositionField()
+
     def __str__(self):
+        return self.resort_name
+
+    def __unicode__(self):
         return self.resort_name

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "trip/header.html"%}
+    <body>
+    {%include "trip/nav_top.html"%}
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span2">
+                    {% include "trip/nav_left.html%"}
+                </div><!--/span-->
+                <div class="span10">
+                    {%include body_template%}
+                </div><!--/span-->
+            </div><!--/row-->
+
+            <hr>
+            <footer> <p>© Massival 2015</p> </footer>
+        </div>
+
+        {%include "trip/footer.html"%}
+    </body>
+</html>
